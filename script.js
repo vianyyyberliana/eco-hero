@@ -193,16 +193,16 @@ function updateBackground(currentLevel) {
 
     switch (timeCycle) {
         case 0: 
-            newBackgroundUrl = 'assets/cityscene.jpg';
+            newBackgroundUrl = 'cityscene.jpg';
             break;
         case 1: 
-            newBackgroundUrl = 'assets/sunsetview.jpg';
+            newBackgroundUrl = 'sunsetview.jpg';
             break;
         case 2: 
-            newBackgroundUrl = 'assets/nightview.jpg';
+            newBackgroundUrl = 'nightview.jpg';
             break;
         default:
-            newBackgroundUrl = 'assets/cityscene.jpg';
+            newBackgroundUrl = 'cityscene.jpg';
     }
 
     const currentStyle = body.style.backgroundImage;
